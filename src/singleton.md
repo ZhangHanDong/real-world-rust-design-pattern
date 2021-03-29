@@ -1,0 +1,1 @@
+# singleton（单例）

@@ -1,0 +1,19 @@
+[book]
+authors = ["blackanger"]
+language = "zh_CN"
+multilingual = false
+src = "src"
+title = "Real World Rust Design Pattern"
+
+[output.html]
+theme = "mytheme"
+default-theme = "rust"
+
+
+[output.html.playground]
+editable = true
+copy-js = true
+
+[output.html.fold]
+enable = true
+level = 0
