@@ -41,7 +41,7 @@ Facade 模式，帮忙建立了统一的接口，使得调用复杂的子系统�
 
 实现方式：
 
-- 利用 类型和Trait： 
+- 利用 「类型」 和 「Trait」： 
     - [log](https://github.com/rust-lang/log)
     - [mio](https://github.com/tokio-rs/mio)
     - [cranelift]()
