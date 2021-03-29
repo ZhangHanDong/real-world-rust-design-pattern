@@ -1,5 +1,9 @@
 # Summary
 
+# 介绍
+
+- [Introduce（介绍）](./intro.md)
+
 # Creational Patterns (创建型模式)
 
 - [Factory Method（工厂方法）](./factory_method.md)
