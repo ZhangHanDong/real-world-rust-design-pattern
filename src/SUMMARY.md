@@ -2,7 +2,7 @@
 
 # 介绍
 
-- [Introduce（介绍）](./intro.md)
+- [Introduce（介绍）](./readme.md)
 
 # Creational Patterns (创建型模式)
 
