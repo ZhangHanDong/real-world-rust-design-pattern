@@ -37,5 +37,8 @@
 
 # Rust Specific (Rust 专用)
 
+注: 虽然 newtype 也是 Haskell 编程语言的 keyword(关键词)，但在 Rust 中几乎 60-70% 的项目都用到 NewType 模式，NewType 应用的广泛程度看上去就像一个 Rust "专用" 的编程范式
+
+- [NewType](./newtype.md)
 - [Enum](./enum.md)
 - [Ownership](./ownership.md)
