@@ -10,6 +10,18 @@
 
 ## 真实案例
 
+### rustc_lint::EarlyLintPass(clippy/rustc lints 检查的回调函数)
+
+例如 rustc_lint::EarlyLintPass 中定义了很多编译器静态分析的回调函数，
+
+例如 EarlyLintPass::check_fn 允许在"扫描"所有函数的时候嵌入一些定制的静态分析规则
+
+EarlyLintPass 或 LateLintPass 的源码中大量用到了 rustc_ast::visit 或 rustc_hir::visit 的访问者设计模式
+
+### serde::de::Visitor
+
+例如手动实现反序列化时，遍历 json 树也能用到 Visitor 设计模式
+
 ### syn::visit::Visitor
 
 在开发过程宏或 codegen 库解析 Rust 源码输入时，可以用 syn::visit API 方便的遍历输入的 Rust AST 树
